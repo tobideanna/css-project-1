@@ -17,7 +17,9 @@ body {
     color: #f9faf8;
     align-items: center;
 }
-
+.left-header {
+    font-size: 24px;
+}
 ul {
     display: flex;
     justify-content: right  ;
@@ -30,7 +32,8 @@ ul {
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: space-around;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 90px;
 }
 
 .hero-container {
@@ -66,8 +69,8 @@ h2 {
     align-items: center;
     justify-content: center;
     background-color: darkgrey;
-    padding-left: 20px;
-    padding-right: 20px ;
+    padding-left: 150px;
+    padding-right: 150px ;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -155,16 +158,77 @@ h2 {
 .section-three {
     display: flex;
     flex-direction: column;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 550px;
+    padding-right: 550px;
     background-color: #e5e7eb;
     font-style: italic;
     font-size: 36px;
     padding-top: 50px;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .author {
     display: flex;
     justify-content: right;
+}
+
+.testimonial {
+    display: flex;
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+.section-four {
+    display: flex;
+    padding-top:  75px;
+    padding-bottom: 75px;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: space-around;
+}
+
+.CTA {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-radius: 0.25cm;
+    padding: 50px;
+    gap: 100px;
+
+}
+
+.actual-button {
+    display: flex;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid #f9faf8 2px;
+    border-radius: 0.5cm;
+    font-size: 18px;
+    height: 75px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+h4 {
+    font-size: 24px;
+}
+
+.CTA-long {
+    margin-top: -15px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 100px;
 }
